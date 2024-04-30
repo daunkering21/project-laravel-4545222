@@ -1,0 +1,9 @@
+@extends('layouts.main')
+@section('container')
+    <h1 class="mb-4">Selamat Datang di Lovidea Store</h1>
+    <p>Perkembangan industri startup telah membuka pintu bagi berbagai inovasi bisnis yang unik dan menarik. Salah satu contohnya adalah startup yang fokus dalam bidang percetakan sticker dan totebag. Bisnis ini menawarkan produk-produk berkualitas tinggi yang dapat disesuaikan sesuai dengan kebutuhan dan preferensi pelanggan.</p>
+    <p>Memulai bisnis di bidang percetakan sticker dan totebag mungkin terdengar sederhana, namun, perusahaan startup ini mengambil langkah ekstra dengan memprioritaskan kepuasan pelanggan di setiap tahapan produksi. Kami tidak hanya menawarkan berbagai desain menarik, tetapi juga memberikan fleksibilitas bagi pelanggan untuk membuat desain sesuai dengan keinginan pelanggan sendiri.</p>
+    <p>Dalam era di mana personalisasi menjadi kunci penting dalam pemasaran, perusahaan ini berhasil menonjolkan dirinya dengan menawarkan pengalaman berbelanja yang unik dan memuaskan. Dengan berbagai opsi kustomisasi dan pilihan produk berkualitas tinggi, pelanggan dapat dengan mudah mengekspresikan kreativitas pelanggan kami melalui sticker dan totebag yang diproduksi oleh perusahaan startup ini.</p>
+    <p>Selain itu, kepuasan pelanggan bukanlah satu-satunya fokus perusahaan. kami juga berkomitmen untuk menggunakan bahan-bahan ramah lingkungan dalam setiap produk yang kami hasilkan. Dengan demikian, pelanggan tidak hanya mendapatkan produk yang berkualitas, tetapi juga berkontribusi pada upaya pelestarian lingkungan.</p>
+    <p>Dengan semangat inovasi dan pelayanan pelanggan yang prima, perusahaan startup ini berhasil menciptakan identitasnya sendiri di pasar yang kompetitif. Dengan memadukan kreativitas, kualitas, dan kepuasan pelanggan, kami membuktikan bahwa bisnis di bidang percetakan sticker dan totebag bisa menjadi lebih dari sekadar bisnis biasa.</p>
+@endsection

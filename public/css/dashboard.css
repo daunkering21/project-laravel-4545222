@@ -1,0 +1,95 @@
+@font-face {
+  font-family: 'MarkerFeltFantasy'; 
+  src: url('../css/Marker Felt.ttf') format('truetype');
+}
+
+.bi {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+}
+
+/*
+ * Sidebar
+ */
+
+@media (min-width: 768px) {
+  .sidebar .offcanvas-lg {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 48px;
+  }
+  .navbar-search {
+    display: block;
+  }
+}
+
+.sidebar .nav-link {
+  font-size: .875rem;
+  font-weight: 500;
+}
+
+.sidebar .nav-link.active {
+  color: #2470dc;
+}
+
+.sidebar-heading {
+  font-size: .75rem;
+}
+
+/*
+ * Navbar
+ */
+
+.navbar-brand {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  background-color: rgba(0, 0, 0, .25);
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
+}
+
+.navbar .form-control {
+  padding: .75rem 1rem;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+.rounded-circle {
+  border-radius: 50% !important;
+}
+.elevation-2 {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23) !important;
+}
+
+.ulululu {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Mengatur tinggi body menjadi 100% dari tinggi viewport */
+
+  background-image: url(../img/background.jpg);
+  background-size: cover; /* Menyesuaikan ukuran gambar latar belakang dengan body */
+}
+
+.haluhalu {
+    margin-top: 30px;
+    font-family: 'MarkerFeltFantasy'; /* Tambahkan tanda kutip */
+    font-size: 50px;
+    width: 500px;
+    height: 80px;
+    padding: 5px;
+    border: 1px solid rgb(177, 236, 243);
+    border-radius: 80px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s;
+}
+.haluhalu {
+    size-adjust: 200px;
+    background-color: #b1ecf3;
+    color: rgb(109, 109, 109);
+    cursor: pointer;
+}
+.haluhalu:hover {
+    background-color: #dcfbff;
+    transform: scale(1.1);
+}

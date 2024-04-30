@@ -85,5 +85,4 @@ Route::get('/dashboard/posts/checkSlug', [DashboardPostController::class,'checkS
 Route::get('/dashboard/biolink',[DashboardPostController::class,'biolink'])->middleware('auth');
 Route::get('/dashboard',[DashboardPostController::class,'countUser'])->middleware('auth');
 Route::get('/dashboard/testingpage',[DashboardPostController::class,'testPage'])->middleware('auth');
-
 Route::get('/userlist', [DashboardPostController::class, 'getJsonData']);

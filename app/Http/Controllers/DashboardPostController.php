@@ -195,12 +195,12 @@ class DashboardPostController extends Controller
         ]);
     }
 
-    // public function testPage(){
-    //     $dataJSON = User::all();
-    //     return view('dashboard.testingPage',[
-    //         'tampilkandata' => $dataJSON
-    //     ]);
-    // }
+    public function testPage(){
+        $dataJSON = User::all();
+        return view('dashboard.testingPage',[
+            'tampilkandata' => $dataJSON
+        ]);
+    }
     // public function ubahJSON(){
     //     $dataJSON = User::all();
     //     dd($dataJSON);
